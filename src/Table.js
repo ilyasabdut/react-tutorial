@@ -6,6 +6,7 @@ import React from 'react'
         <tr>
           <th>Name</th>
           <th>Job</th>
+          <th>Age</th>
           <th>Action</th>
         </tr>
       </thead>
@@ -18,6 +19,7 @@ import React from 'react'
         <tr key={index}>
           <td>{row.name}</td>
           <td>{row.job}</td>
+          <td>{row.age}</td>
           <td>
             <button onClick={() => props.removeCharacter(index)}>Delete</button>
           </td>
